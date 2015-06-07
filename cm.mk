@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Use Optimizations?
+USE_OPTIMIZATIONS := true
+
+# Enable this if this is a very very old device
+USE_LEGACY_GCC := false
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
